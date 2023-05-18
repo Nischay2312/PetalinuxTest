@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 18 14:12:13 2023
+# Process ID: 84776
+# Current directory: C:/fake_d/ZedboardPractice/Lab_4/PetaLinux_zynq700/PetaLinux_zynq700.runs/synth_1
+# Command line: vivado.exe -log mainProcessingUnit_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mainProcessingUnit_wrapper.tcl
+# Log file: C:/fake_d/ZedboardPractice/Lab_4/PetaLinux_zynq700/PetaLinux_zynq700.runs/synth_1/mainProcessingUnit_wrapper.vds
+# Journal file: C:/fake_d/ZedboardPractice/Lab_4/PetaLinux_zynq700/PetaLinux_zynq700.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mainProcessingUnit_wrapper.tcl -notrace
