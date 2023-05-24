@@ -1,4 +1,3 @@
-#include <xparameters.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <fcntl.h>
@@ -10,10 +9,10 @@
 #include <sys/mman.h>
 
 
-#define LED_Address XPAR_AXI_GPIO_0_BASEADDR
+#define leds_addr 0x41200000
 static volatile uint32_t *leds;
 
-void map_gpio(void){
+void map_gpios(void){
 	int fd;
 	if(fd = open("/dev/mem", O_RDWR|O_SYNC) < 0)
 		if(fd < 0){
@@ -45,7 +44,7 @@ void map_gpio(void){
 	static void run_leds_mode(void)
 	{
 	  int val;
-	  printf("Enter a value to set the IO LEDs to: led = %x\r\n",leds);
+	  printf("Enter a value to set the IO LEDs to: led = %x\r\n",*leds);
 
 	  scanf("%d",&val);
 	  *leds = val;
