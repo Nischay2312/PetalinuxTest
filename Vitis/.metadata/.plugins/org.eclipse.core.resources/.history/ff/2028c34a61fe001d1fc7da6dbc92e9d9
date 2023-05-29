@@ -1,0 +1,68 @@
+/*
+* imu.h
+* This file contains the function prototypes and macros for the IMU
+* Author: Nischay Joshi
+* Date: 2023/05/29
+*/
+
+#ifndef IMU_H
+#define IMU_H
+
+#include <stdio.h>
+#include <stdint.h>
+#include <fcntl.h>
+#include "i2cLinux.h"
+#include <math.h>
+
+
+#define IMU_addr 0x68
+#define I2CBUS 0
+#define READINGS 1500
+#define IMUSmplRate 50.0 //Hz
+#define IMUSleepus 1000000.0/IMUSmplRate
+#define PI 3.1415926535897932384626433832795
+#define IMU_Accel_Scale 16384.0
+
+/*
+* We make a struct to store the IMU data
+*/
+typedef struct
+{
+    uint8_t Address;
+    //file descriptor
+    int fd;
+    //angles
+    float XAngle;
+    float YAngle;
+    //Data Buffer
+    uint8_t DataBuffer[10];
+}IMUData;
+
+/*
+* Function: SetupIMU
+* Sets up the IMU to output Acceleration and Gyroscope data at +/-8g and 1000dps respectively
+* Parameters:
+* fd - file descriptor for the I2C bus (int)
+*/
+void SetupIMU(IMUData * imu);
+
+/*
+* Function: GetIMUData
+* Gets the IMU data and stores it in the IMUData struct
+* Parameters:
+* imu - IMUData struct pointer which will hold the data
+*/
+void GetXYAngles(IMUData * imu);
+
+/*
+* Function: IMUTest
+* Tests the validity of the IMU i2c connection
+* Parameters:
+* imu - IMUData struct pointer which will hold the data
+* Returns:
+* 0 - if the test fails
+* 1 - if the test passes
+*/
+int IMUTest(IMUData * imu);
+
+#endif

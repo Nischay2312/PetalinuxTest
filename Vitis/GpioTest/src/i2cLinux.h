@@ -5,6 +5,9 @@
 * Description: This file contains the function declarations for I2C communication on Linux
 */
 
+#ifndef I2C_LINUX_H
+#define I2C_LINUX_H
+
 #include <sys/types.h>
 #include <sys/mman.h>
 #include <errno.h>
@@ -45,3 +48,4 @@ void I2C_Write(int i2cfileDescriptor, uint8_t *Data, uint8_t BytestoWrite);
  */
 void I2C_Read(int i2cfileDescriptor, uint8_t *Data, uint8_t BytestoRead);
 
+#endif

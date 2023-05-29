@@ -34,6 +34,7 @@
 #include "i2cLinux.h"
 #include "imu.h"
 #include "gpioLinux.h"
+#include "game.h"
 
 static volatile uint32_t *leds;
 #define leds_addr 0x41200000
@@ -43,7 +44,7 @@ static volatile uint32_t *leds;
 
 gpio_t* ZynqLeds;
 IMUData imuData;
-
+game_t game;
 
 static int select_mode(void)
 {
@@ -58,22 +59,27 @@ static int select_mode(void)
 
 static void run_leds_mode(void)
 {
-  int val;
+  uint32_t val;
   printf("Enter a value to set the IO LEDs to: led = %x\r\n HAS TO BE STRICT INT, O/w THE PROGRAM CRASHES!!!\n",leds);
   scanf("%d",&val);
-  gpio_set(ZynqLeds, (val & 0x000000FF));
+  gpio_set(ZynqLeds, val);
 }
 
 
 void IMU_DAQ(void){
 	//first setup the IMU
 	SetupIMU(&imuData);
+	FILE *fp;
+	fp = fopen("dat.csv", "w");
 	//Record the data from the IMU
 	for(int i = 0; i < READINGS; i++){
 		GetXYAngles(&imuData);
-		printf("X Angle: %f, Y Angle: %f\n",imuData.XAngle,imuData.YAngle);
+		//printf("X Angle: %f, Y Angle: %f\n",imuData.XAngle,imuData.YAngle);
+		game_update(&game, &imuData);
+		fprintf(fp, "%lf, %lf, %lf, %lf\n",imuData.XAngle, game.currentVariable, game.velocity, game.distance);
 		usleep(IMUSleepus);
 	}
+	fclose(fp);
 }
 
 int main(int argc, char *argv[])
@@ -82,7 +88,11 @@ int main(int argc, char *argv[])
 	int mode;
 	int exitflag = 0;
 	//Setup the Gpio
-	ZynqLeds = gpio_init(leds_addr, 0x00000000);
+	ZynqLeds = gpio_init(leds_addr, 0xFFFFFF00);
+	printf("GPIO SETUP COMPLETE");
+	//Setup the game
+	game_init(&game, ZynqLeds);
+	printf("GAME SETUP COMPLETE");
     do {
     	//Get User input
     	mode = select_mode();

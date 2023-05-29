@@ -1,6 +1,6 @@
-14:13:52 **** Incremental Build of configuration Debug for project GpioTest_system ****
+14:23:35 **** Build of configuration Debug for project GpioTest_system ****
 make all 
 NOTE: Skipping SDCard Generation, as the platform do not have boot directory and the bif file defined.
 
-14:13:52 Build Finished (took 121ms)
+14:23:35 Build Finished (took 115ms)
 

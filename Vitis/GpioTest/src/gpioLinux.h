@@ -6,6 +6,8 @@
 *   Date: 2023/05/29
 */
 
+#ifndef GPIO_LINUX_H
+#define GPIO_LINUX_H
 #include <unistd.h>
 #include <stdio.h>
 #include <fcntl.h>
@@ -38,4 +40,4 @@ gpio_t *gpio_init(uint32_t gpio_addr, uint32_t gpio_mask);
 *   @param mask: The mask to be used
 */
 void gpio_set(gpio_t *mygpio, uint32_t value);
-
+#endif

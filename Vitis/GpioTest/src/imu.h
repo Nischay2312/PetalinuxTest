@@ -5,6 +5,9 @@
 * Date: 2023/05/29
 */
 
+#ifndef IMU_H
+#define IMU_H
+
 #include <stdio.h>
 #include <stdint.h>
 #include <fcntl.h>
@@ -15,7 +18,7 @@
 #define IMU_addr 0x68
 #define I2CBUS 0
 #define READINGS 500
-#define IMUSmplRate 3.0 //Hz
+#define IMUSmplRate 50.0 //Hz
 #define IMUSleepus 1000000.0/IMUSmplRate
 #define PI 3.1415926535897932384626433832795
 #define IMU_Accel_Scale 16384.0
@@ -61,3 +64,5 @@ void GetXYAngles(IMUData * imu);
 * 1 - if the test passes
 */
 int IMUTest(IMUData * imu);
+
+#endif

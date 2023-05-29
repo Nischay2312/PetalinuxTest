@@ -17,3 +17,5 @@ platform active {ZedboardLinux2}
 domain config -boot {C:\fake_d\ZedboardPractice\PetalinuxTest\OS\images\linux}
 platform write
 platform generate
+platform clean
+platform generate

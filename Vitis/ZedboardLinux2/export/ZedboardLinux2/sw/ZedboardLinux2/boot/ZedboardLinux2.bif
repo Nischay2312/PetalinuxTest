@@ -1,0 +1,6 @@
+/*ZedboardLinux2*/
+the_ROM_image:
+{
+  [bootloader]<ZedboardLinux2/boot/fsbl.elf>
+   <bitstream> 
+}

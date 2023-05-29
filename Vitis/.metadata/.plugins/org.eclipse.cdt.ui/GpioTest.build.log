@@ -1,16 +1,16 @@
-11:34:57 **** Incremental Build of configuration Debug for project GpioTest ****
+14:32:40 **** Incremental Build of configuration Debug for project GpioTest ****
 make all 
-'Building file: ../src/imu.c'
+'Building file: ../src/game.c'
 'Invoking: ARM v7 Linux gcc compiler'
-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imu.o" -MMD -MP -MF"src/imu.d" -MT"src/imu.o" -o "src/imu.o" "../src/imu.c"
-'Finished building: ../src/imu.c'
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/game.o" -MMD -MP -MF"src/game.d" -MT"src/game.o" -o "src/game.o" "../src/game.c"
+'Finished building: ../src/game.c'
 ' '
 'Building file: ../src/main.c'
 'Invoking: ARM v7 Linux gcc compiler'
 arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
 ../src/main.c: In function 'run_leds_mode':
-../src/main.c:62:55: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'volatile uint32_t *' {aka 'volatile unsigned int *'} [-Wformat=]
-   62 |   printf("Enter a value to set the IO LEDs to: led = %x\r\n HAS TO BE STRICT INT, O/w THE PROGRAM CRASHES!!!\n",leds);
+../src/main.c:63:55: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'volatile uint32_t *' {aka 'volatile unsigned int *'} [-Wformat=]
+   63 |   printf("Enter a value to set the IO LEDs to: led = %x\r\n HAS TO BE STRICT INT, O/w THE PROGRAM CRASHES!!!\n",leds);
       |                                                      ~^                                                         ~~~~
       |                                                       |                                                         |
       |                                                       unsigned int                                              volatile uint32_t * {aka volatile unsigned int *}
@@ -19,15 +19,15 @@ arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -MMD
 ' '
 'Building target: GpioTest.elf'
 'Invoking: ARM v7 Linux gcc linker'
-arm-linux-gnueabihf-gcc  -o "GpioTest.elf"  ./src/gpioLinux.o ./src/i2cLinux.o ./src/imu.o ./src/main.o   -lm
+arm-linux-gnueabihf-gcc  -o "GpioTest.elf"  ./src/game.o ./src/gpioLinux.o ./src/i2cLinux.o ./src/imu.o ./src/main.o   -lm
 'Finished building target: GpioTest.elf'
 ' '
 'Invoking: ARM v7 Linux Print Size'
 arm-linux-gnueabihf-size GpioTest.elf  |tee "GpioTest.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   4967	    388	     40	   5395	   1513	GpioTest.elf
+   5881	    404	     72	   6357	   18d5	GpioTest.elf
 'Finished building: GpioTest.elf.size'
 ' '
 
-11:34:58 Build Finished (took 967ms)
+14:32:41 Build Finished (took 937ms)
 
