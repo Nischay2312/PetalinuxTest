@@ -1,0 +1,199 @@
+/*
+ * Copyright (c) 2012 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
+
+
+#include <unistd.h>
+#include <stdio.h>
+#include <fcntl.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+//#include <glib.h>
+//#include <glib/gprintf.h>
+#include <errno.h>
+#include <linux/i2c-dev.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+
+static volatile uint32_t *leds;
+#define leds_addr 0x41200000
+const int leds_mode = 5;
+const int exit_mode = 0;
+
+#define IMU 0x68
+#define I2CBUS 0
+#define READINGS 1000
+
+void map_gpios(void)
+{
+  int fd;
+
+  if ((fd = open("/dev/mem", O_RDWR|O_SYNC)) < 0)
+
+  if (fd < 0) {
+    perror("/dev/mem");
+    exit(-1);
+  }
+
+if ((leds = mmap(0, getpagesize(), PROT_READ|PROT_WRITE, MAP_SHARED, fd, leds_addr))
+      == MAP_FAILED) {
+    perror("leds did not get pointer from mmap");
+    exit(-1);
+  }
+}
+
+static int select_mode(void)
+{
+  int mode;
+  printf("Select one of the following modes:\r\n");
+
+  printf("%0d) Start the App.\r\n",leds_mode);
+  printf("%0d) Exit the App.\r\n",exit_mode);
+  scanf("%d",&mode);
+  return mode;
+}
+
+static void run_leds_mode(void)
+{
+  int val;
+  printf("Enter a value to set the IO LEDs to: led = %x\r\n",leds);
+
+  scanf("%d",&val);
+  *leds = val;
+}
+
+/*
+ * Opens a I2C Device using the standard Linux I2c Driver.
+ * Params
+ * @int I2C_BusNumber :	I2C Bus Number that You wish to connect the device to
+ * @int I2C_DeviceAddress: The address of the device that you want to connect to.
+ *
+ * Returns: The file descriptor is the connection was established successfully. Otherwise negative values are returned to signal that something was wrong
+ */
+int OpenI2CDevice(int I2C_BusNumber, int I2C_DeviceAddress){
+	char filename[20];
+	int i2cfileDescriptor = 0;
+	sprintf(filename, "/dev/i2c-%d", I2C_BusNumber);
+	printf("%s\n", filename);
+	//Try to open the device file
+	i2cfileDescriptor = open(filename, O_RDWR);
+	if(i2cfileDescriptor < 0){
+		printf ( "Failed to open %s, open() returned %i\n" , filename , i2cfileDescriptor);
+		return(i2cfileDescriptor);
+	}
+	//try to connect to the i2c device
+	if(ioctl(i2cfileDescriptor, I2C_SLAVE, I2C_DeviceAddress) < 0){
+		printf ( "Failed to find device 0x%x on i2c bus %i\n" , I2C_DeviceAddress , I2C_DeviceAddress ) ;
+		i2cfileDescriptor = -1;
+		return(i2cfileDescriptor);
+	}
+	printf("I2C Setup complete\n");
+	return(i2cfileDescriptor);
+}
+
+/*
+ * This functions writes Data to I2C device connected to a specific i2cFileDescriptor
+ * Params:
+ * @int i2cfileDescriptor : The file descriptor for the i2c device
+ * @uint8_t *Data: The pointed pointing to the buffer storing the data
+ * @uint8_t BytestoWrite: Well, the no. of bytes from the buffer to write to.
+ */
+void I2C_Write(int i2cfileDescriptor, uint8_t *Data, uint8_t BytestoWrite){
+	int Written = write(i2cfileDescriptor, Data, BytestoWrite);
+	if(Written != BytestoWrite) {
+		printf("ERROR!!! Bytes written: %d, was expecting to write: %d/n", Written, BytestoWrite);
+	}
+	//printf("I2c write complete\n");
+}
+
+/*
+ * This functions Reads Data to I2C device connected to a specific i2cFileDescriptor
+ * Params:
+ * @int i2cfileDescriptor : The file descriptor for the i2c device
+ * @uint8_t *Data: The pointed pointing to the buffer that will store the data
+ * @uint8_t BytestoWrite: Well, the no. of bytes from the buffer to read.
+ */
+void I2C_Read(int i2cfileDescriptor, uint8_t *Data, uint8_t BytestoRead){
+	int Read = read(i2cfileDescriptor, Data, BytestoRead);
+	if(Read != BytestoRead) {
+		printf("ERROR!!! Bytes Read: %d, was expecting to read: %d/n", Read, BytestoRead);
+	}
+	//printf("I2c read complete\n");
+}
+
+void IMU_DAQ(void){
+	//first setup the IMU
+	int IMU_i2c_descriptor = OpenI2CDevice(I2CBUS, IMU);
+
+	//if this fails
+	if(IMU_i2c_descriptor < 0){
+		printf("Something is wrong, i can feel it. Check previous print message!!!!!!\n");
+	}
+	//otherwise continue
+	else{
+		uint8_t DataBuffer[20] = {0};
+		//Read from the IMU's Who am i register :0x75
+		DataBuffer[0] = 0x75;
+
+		//now write to this in order to read from this.
+		I2C_Write(IMU_i2c_descriptor, DataBuffer, 1);
+		I2C_Read(IMU_i2c_descriptor, DataBuffer, 1);
+
+		//Hope that this was successful and now we print the data read. it should be 0x68
+		if(DataBuffer[0] == 0x68){
+			printf("The data read is correct. We can successfully talk with the IMU. TEST PASSED!!!!\n");
+		}
+	}
+}
+
+int main(int argc, char *argv[])
+{
+	IMU_DAQ();
+	int mode;
+	int exitflag = 0;
+    printf("Hello, This is a test program!\n");
+    printf("cmdline args:\n");
+    while(argc--)
+        printf("%s\n",*argv++);
+    printf("gpi_custiom inside main:\r\n");
+    map_gpios();
+    do {
+    	mode = select_mode();
+    	switch (mode){
+    	case leds_mode:
+    		run_leds_mode();
+    		break;
+    	case game_mode:
+    		IMU_DAQ();
+    		break;
+    	case exit_mode:
+    		exitflag = 1;
+    		break;
+    	default:
+
+    	}
+    	if (mode == leds_mode)
+    		run_leds_mode();
+    } while (mode != exit_mode);
+
+    return 0;
+}
+

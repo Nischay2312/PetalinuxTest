@@ -1,0 +1,152 @@
+13:42:18 INFO  : Registering command handlers for Vitis TCF services
+13:42:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\temp_xsdb_launch_script.tcl
+13:42:22 INFO  : XSCT server has started successfully.
+13:42:22 INFO  : Successfully done setting XSCT server connection channel  
+13:42:23 INFO  : Platform repository initialization has completed.
+13:42:26 INFO  : plnx-install-location is set to ''
+13:42:26 INFO  : Successfully done setting workspace for the tool. 
+13:42:26 INFO  : Successfully done query RDI_DATADIR 
+13:45:49 INFO  : Result from executing command 'getProjects': Project1
+13:45:49 INFO  : Result from executing command 'getPlatforms': 
+13:45:49 WARN  : An unexpected exception occurred in the module 'platform project logging'
+13:45:50 INFO  : Platform 'Project1' is added to custom repositories.
+13:45:59 INFO  : Platform 'Project1' is added to custom repositories.
+14:31:31 INFO  : Result from executing command 'getProjects': Project1
+14:31:31 INFO  : Result from executing command 'getPlatforms': Project1|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/Project1/export/Project1/Project1.xpfm
+14:31:32 INFO  : Checking for BSP changes to sync application flags for project 'BlinkLed'...
+15:21:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\temp_xsdb_launch_script.tcl
+15:21:19 INFO  : XSCT server has started successfully.
+15:21:19 INFO  : Successfully done setting XSCT server connection channel  
+15:21:19 INFO  : plnx-install-location is set to ''
+15:21:19 INFO  : Successfully done setting workspace for the tool. 
+15:21:24 INFO  : Platform repository initialization has completed.
+15:21:24 INFO  : Registering command handlers for Vitis TCF services
+15:21:27 INFO  : Successfully done query RDI_DATADIR 
+15:24:28 INFO  : No changes in MSS file content so sources will not be generated.
+15:25:50 ERROR : Unexpected error while reading linker script.
+org.eclipse.core.internal.resources.ResourceException(/BlinkLed/src/lscript.ld)[368]: java.lang.Exception: Resource '/BlinkLed/src/lscript.ld' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:273)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.initLscriptEditorPage(LscriptEditor.java:142)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.setInput(LscriptEditor.java:134)
+	at org.eclipse.ui.forms.editor.FormEditor.init(FormEditor.java:132)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.init(LscriptEditor.java:60)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1002)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:967)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:408)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:331)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1002)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:768)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4561)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.lambda$3(StackRenderer.java:1061)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1046)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:760)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3228)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1876)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:330)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+15:27:19 ERROR : Failed to set sysroot on the domain. Click on details for more information.
+15:27:27 ERROR : Failed to set sysroot on the domain. Click on details for more information.
+15:43:58 INFO  : Result from executing command 'getProjects': linuxTest
+15:43:58 INFO  : Result from executing command 'getPlatforms': 
+11:21:02 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\temp_xsdb_launch_script.tcl
+11:21:07 INFO  : Platform repository initialization has completed.
+11:21:07 INFO  : Registering command handlers for Vitis TCF services
+11:21:08 INFO  : XSCT server has started successfully.
+11:21:08 INFO  : plnx-install-location is set to ''
+11:21:11 INFO  : Successfully done setting XSCT server connection channel  
+11:21:11 INFO  : Successfully done query RDI_DATADIR 
+11:21:11 INFO  : Successfully done setting workspace for the tool. 
+11:50:31 INFO  : Result from executing command 'getProjects': ZedboardLinux2;linuxTest
+11:50:31 INFO  : Result from executing command 'getPlatforms': linuxTest|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/linuxTest/export/linuxTest/linuxTest.xpfm
+11:51:21 INFO  : The hardware specfication used by project 'GpioTest' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+11:51:22 INFO  : The file 'C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\GpioTest\_ide\bitstream\project_1.bit' stored in project is removed.
+11:51:22 INFO  : The updated bitstream files are copied from platform to folder 'C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\GpioTest\_ide\bitstream' in project 'GpioTest'.
+11:51:28 INFO  : The updated ps init files are copied from platform to folder 'C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\GpioTest\_ide\psinit' in project 'GpioTest'.
+15:30:44 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\temp_xsdb_launch_script.tcl
+15:30:48 INFO  : XSCT server has started successfully.
+15:30:48 INFO  : plnx-install-location is set to ''
+15:30:48 INFO  : Successfully done setting XSCT server connection channel  
+15:30:48 INFO  : Successfully done setting workspace for the tool. 
+15:30:49 INFO  : Platform repository initialization has completed.
+15:30:50 INFO  : Successfully done query RDI_DATADIR 
+15:30:50 INFO  : Registering command handlers for Vitis TCF services
+08:45:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\temp_xsdb_launch_script.tcl
+08:45:33 INFO  : Platform repository initialization has completed.
+08:45:34 INFO  : Registering command handlers for Vitis TCF services
+08:45:34 INFO  : XSCT server has started successfully.
+08:45:38 INFO  : plnx-install-location is set to ''
+08:45:38 INFO  : Successfully done setting XSCT server connection channel  
+08:45:38 INFO  : Successfully done query RDI_DATADIR 
+08:45:38 INFO  : Successfully done setting workspace for the tool. 

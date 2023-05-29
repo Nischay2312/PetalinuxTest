@@ -1,0 +1,1570 @@
+TRACE::2023-05-25.11:22:08::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:08::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:08::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:10::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:10::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:10::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:10::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-25.11:22:12::SCWPlatform::Opened new HwDB with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-05-25.11:22:12::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ZedboardLinux2"
+		}]
+}
+TRACE::2023-05-25.11:22:12::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-05-25.11:22:12::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-25.11:22:12::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-05-25.11:22:12::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:12::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2023-05-25.11:22:12::SCWPlatform::Generating the sources  .
+TRACE::2023-05-25.11:22:12::SCWBDomain::Generating boot domain sources.
+TRACE::2023-05-25.11:22:12::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:12::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:12::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-25.11:22:12::SCWMssOS::No sw design opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:12::SCWMssOS::mss does not exists at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:12::SCWMssOS::Creating sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:12::SCWMssOS::Adding the swdes entry, created swdb C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:12::SCWMssOS::updating the scw layer changes to swdes at   C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:12::SCWMssOS::Writing mss at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:12::SCWMssOS::Completed writing the mss file at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-05-25.11:22:12::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-05-25.11:22:12::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-05-25.11:22:12::SCWBDomain::Completed writing the mss file at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-05-25.11:22:23::SCWPlatform::Generating sources Done.
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2023-05-25.11:22:23::SCWMssOS::Could not open the swdb for C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2023-05-25.11:22:23::SCWMssOS::Could not open the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-05-25.11:22:23::SCWMssOS::No sw design opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::mss exists loading the mss file  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Opened the sw design from mss  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Adding the swdes entry C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-05-25.11:22:23::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-25.11:22:23::SCWMssOS::Opened the sw design.  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ZedboardLinux2",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"2b37e6d0cb8e9dfa51a6ec80f61deaba",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-25.11:22:23::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-25.11:22:23::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/
+TRACE::2023-05-25.11:22:23::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt
+TRACE::2023-05-25.11:22:23::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ZedboardLinux2",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"2b37e6d0cb8e9dfa51a6ec80f61deaba",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux_domain",
+					"domainDesc":	"linux_domain",
+					"processors":	"ps7_cortexa9",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-25.11:22:23::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ZedboardLinux2",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"2b37e6d0cb8e9dfa51a6ec80f61deaba",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on ps7_cortexa9",
+					"domainDesc":	"linux_domain",
+					"processors":	"ps7_cortexa9",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-25.11:22:23::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"ZedboardLinux2",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"2b37e6d0cb8e9dfa51a6ec80f61deaba",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on ps7_cortexa9",
+					"domainDesc":	"linux_domain",
+					"processors":	"ps7_cortexa9",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-25.11:22:23::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:22:23::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:23::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:23::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"ZedboardLinux2",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"2b37e6d0cb8e9dfa51a6ec80f61deaba",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on ps7_cortexa9",
+					"domainDesc":	"linux_domain",
+					"processors":	"ps7_cortexa9",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-25.11:22:23::SCWPlatform::Clearing the existing platform
+TRACE::2023-05-25.11:22:23::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-05-25.11:22:23::SCWBDomain::clearing the fsbl build
+TRACE::2023-05-25.11:22:23::SCWMssOS::Removing the swdes entry for  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:23::SCWSystem::Clearing the domains completed.
+TRACE::2023-05-25.11:22:23::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform location is C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Removing the HwDB with name C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:23::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:23::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened new HwDB with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWReader::Active system found as  ZedboardLinux2
+TRACE::2023-05-25.11:22:25::SCWReader::Handling sysconfig ZedboardLinux2
+TRACE::2023-05-25.11:22:25::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-25.11:22:25::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-05-25.11:22:25::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:25::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:25::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-25.11:22:25::SCWMssOS::No sw design opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::mss exists loading the mss file  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::Opened the sw design from mss  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::Adding the swdes entry C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-05-25.11:22:25::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-25.11:22:25::SCWMssOS::Opened the sw design.  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:25::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:25::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:25::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:25::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-05-25.11:22:25::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:22:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:22:25::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:22:25::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-05-25.11:22:25::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:22:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:22:25::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:22:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:22:25::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:22:25::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:22:25::SCWReader::No isolation master present  
+TRACE::2023-05-25.11:22:25::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-25.11:22:25::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/
+TRACE::2023-05-25.11:22:25::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt
+TRACE::2023-05-25.11:22:25::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-05-25.11:22:25::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-05-25.11:22:25::SCWReader::No isolation master present  
+TRACE::2023-05-25.11:50:13::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:50:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:50:13::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:50:13::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:13::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:13::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:13::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:50:13::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:50:13::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:50:13::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:50:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:50:13::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:13::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:50:13::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:13::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"ZedboardLinux2",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"2b37e6d0cb8e9dfa51a6ec80f61deaba",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on ps7_cortexa9",
+					"domainDesc":	"linux_domain",
+					"processors":	"ps7_cortexa9",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"C:/fake_d/ZedboardPractice/PetalinuxTest/OS/images/linux",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-05-25.11:50:20::SCWPlatform::Started generating the artifacts platform ZedboardLinux2
+TRACE::2023-05-25.11:50:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-25.11:50:20::SCWPlatform::Started generating the artifacts for system configuration ZedboardLinux2
+LOG::2023-05-25.11:50:20::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-05-25.11:50:20::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-05-25.11:50:20::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-05-25.11:50:20::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2023-05-25.11:50:20::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:20::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:20::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:20::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:50:20::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:20::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:50:20::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:50:20::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:50:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:50:20::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:20::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:50:20::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:20::SCWBDomain::Completed writing the mss file at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-05-25.11:50:20::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-25.11:50:20::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-05-25.11:50:20::SCWBDomain::System Command Ran  C:&  cd  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl& make -C  zynq_fsbl_bsp & make 
+TRACE::2023-05-25.11:50:20::SCWBDomain::make: Entering directory 'C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2023-05-25.11:50:20::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2023-05-25.11:50:20::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2023-05-25.11:50:20::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2023-05-25.11:50:20::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2023-05-25.11:50:20::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2023-05-25.11:50:21::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2023-05-25.11:50:21::SCWBDomain::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:21::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:21::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_7/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:21::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:21::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_12/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-05-25.11:50:21::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-05-25.11:50:21::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_7/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-05-25.11:50:21::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-05-25.11:50:21::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_12/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iicps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2023-05-25.11:50:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2023-05-25.11:50:21::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2023-05-25.11:50:21::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:22::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:22::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_10/src"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:22::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:22::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_5/src"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:22::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:22::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-05-25.11:50:22::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-05-25.11:50:22::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_12/src"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:22::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:22::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
+
+TRACE::2023-05-25.11:50:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-05-25.11:50:22::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-05-25.11:50:22::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_6/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:23::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:23::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:23::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:23::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::'Finished building libraries sequentially.'
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -j --no-print-directory par_libs
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2023-05-25.11:50:23::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2023-05-25.11:50:23::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2023-05-25.11:50:23::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2023-05-25.11:50:23::SCWBDomain::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:23::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:23::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_7/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:23::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:23::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_12/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-05-25.11:50:23::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-05-25.11:50:23::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_7/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-05-25.11:50:23::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-05-25.11:50:23::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_12/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iicps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2023-05-25.11:50:23::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2023-05-25.11:50:23::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_10/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:23::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:23::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_5/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:23::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:23::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-05-25.11:50:23::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-05-25.11:50:23::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_12/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-05-25.11:50:23::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-05-25.11:50:23::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_6/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:23::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:23::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-05-25.11:50:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-05-25.11:50:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2023-05-25.11:50:23::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2023-05-25.11:50:23::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-05-25.11:50:23::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-05-25.11:50:23::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-05-25.11:50:23::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-05-25.11:50:23::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:23::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:24::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:24::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_7/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-05-25.11:50:24::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-05-25.11:50:24::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_12/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-05-25.11:50:24::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-05-25.11:50:24::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:24::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:24::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_7/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2023-05-25.11:50:24::SCWBDomain::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2023-05-25.11:50:24::SCWBDomain::les -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_12/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iicps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:24::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:24::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:24::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:24::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:24::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:24::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-05-25.11:50:24::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-05-25.11:50:24::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:24::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:24::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_10/src"
+
+TRACE::2023-05-25.11:50:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_5/src"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-05-25.11:50:25::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-05-25.11:50:25::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::make -C ps7_cortexa9_0/libsrc/spips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-05-25.11:50:25::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-05-25.11:50:25::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-05-25.11:50:25::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-05-25.11:50:25::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_6/src"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_12/src"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:25::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:25::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:25::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:25::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
+TRACE::2023-05-25.11:50:25::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-05-25.11:50:25::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-05-25.11:50:25::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:26::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
+
+TRACE::2023-05-25.11:50:26::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-05-25.11:50:26::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-05-25.11:50:26::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:26::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-05-25.11:50:26::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-05-25.11:50:26::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2023-05-25.11:50:29::SCWBDomain::'Finished building libraries parallelly.'
+
+TRACE::2023-05-25.11:50:29::SCWBDomain::make --no-print-directory archive
+
+TRACE::2023-05-25.11:50:29::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xplatform_info.o ps7_c
+TRACE::2023-05-25.11:50:29::SCWBDomain::ortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xspips_sinit.o ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0
+TRACE::2023-05-25.11:50:29::SCWBDomain::/lib/xspips_selftest.o ps7_cortexa9_0/lib/xusbps_sinit.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps
+TRACE::2023-05-25.11:50:29::SCWBDomain::7_cortexa9_0/lib/xgpio_sinit.o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xscutimer_
+TRACE::2023-05-25.11:50:29::SCWBDomain::g.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9
+TRACE::2023-05-25.11:50:29::SCWBDomain::_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_c
+TRACE::2023-05-25.11:50:29::SCWBDomain::ortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/xttcps_selftest.o ps7_cortexa9_0/lib/xqspips_
+TRACE::2023-05-25.11:50:29::SCWBDomain::hw.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/close.o ps7_cortexa9_0/lib/xemacps_g.o ps7_co
+TRACE::2023-05-25.11:50:29::SCWBDomain::rtexa9_0/lib/xgpiops_sinit.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpio_g.o ps7_cortexa9_0/lib/xscuwdt.o ps
+TRACE::2023-05-25.11:50:29::SCWBDomain::7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xgpio_selftest.o ps7_cortexa9_0/lib/xiicp
+TRACE::2023-05-25.11:50:29::SCWBDomain::s_slave.o ps7_cortexa9_0/lib/xiicps_intr.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/xiicps_
+TRACE::2023-05-25.11:50:29::SCWBDomain::g.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xiicps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xu
+TRACE::2023-05-25.11:50:29::SCWBDomain::artps_g.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/xspips.o ps7_cortexa9_0/lib/xgpiops.o ps7_
+TRACE::2023-05-25.11:50:29::SCWBDomain::cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xiicps_hw.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/abort.o ps7_c
+TRACE::2023-05-25.11:50:29::SCWBDomain::ortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7
+TRACE::2023-05-25.11:50:29::SCWBDomain::_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xttcps.o ps7_c
+TRACE::2023-05-25.11:50:29::SCWBDomain::ortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xiicps.o ps7_cortexa9_0/lib/_sbrk.o ps7_cortexa9_0/lib/xiicps_master.o ps7_corte
+TRACE::2023-05-25.11:50:29::SCWBDomain::xa9_0/lib/xqspips_g.o ps7_cortexa9_0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xusbps_g.o ps
+TRACE::2023-05-25.11:50:29::SCWBDomain::7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xqspips_selftest.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/sbrk
+TRACE::2023-05-25.11:50:29::SCWBDomain::.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xdevcfg
+TRACE::2023-05-25.11:50:29::SCWBDomain::.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xsdps_host.o 
+TRACE::2023-05-25.11:50:29::SCWBDomain::ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xiicps_xfer.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/sleep.
+TRACE::2023-05-25.11:50:29::SCWBDomain::o ps7_cortexa9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/xttcps_options.o 
+TRACE::2023-05-25.11:50:29::SCWBDomain::ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9
+TRACE::2023-05-25.11:50:29::SCWBDomain::_0/lib/xemacps.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xspips_g.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/li
+TRACE::2023-05-25.11:50:29::SCWBDomain::b/unlink.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/
+TRACE::2023-05-25.11:50:29::SCWBDomain::xil_mmu.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xiicps_selftest.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/uslee
+TRACE::2023-05-25.11:50:29::SCWBDomain::p.o ps7_cortexa9_0/lib/xspips_options.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/l
+TRACE::2023-05-25.11:50:29::SCWBDomain::ib/xscugic_sinit.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xgpio_intr.o ps7_co
+TRACE::2023-05-25.11:50:29::SCWBDomain::rtexa9_0/lib/xspips_hw.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xil_util.o ps7_cort
+TRACE::2023-05-25.11:50:29::SCWBDomain::exa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_corte
+TRACE::2023-05-25.11:50:29::SCWBDomain::xa9_0/lib/xttcps_sinit.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/fstat.o ps7_cortexa9_0
+TRACE::2023-05-25.11:50:29::SCWBDomain::/lib/errno.o ps7_cortexa9_0/lib/xgpio.o ps7_cortexa9_0/lib/xusbps_intr.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/x
+TRACE::2023-05-25.11:50:29::SCWBDomain::uartps_options.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/
+TRACE::2023-05-25.11:50:29::SCWBDomain::lib/xemacps_intr.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xgpio_extra.o ps7_cortexa9_0/lib/xscugic_g.o ps7_co
+TRACE::2023-05-25.11:50:29::SCWBDomain::rtexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xiicps_sinit.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortex
+TRACE::2023-05-25.11:50:29::SCWBDomain::a9_0/lib/xqspips_sinit.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xttcps_g.o
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::'Finished building libraries'
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::make: Leaving directory 'C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2023-05-25.11:50:30::SCWBDomain::exa9_0/include -I.
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2023-05-25.11:50:30::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2023-05-25.11:50:30::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c image_mover.c -o image_mover.o -Izynq
+TRACE::2023-05-25.11:50:30::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2023-05-25.11:50:30::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2023-05-25.11:50:30::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:30::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2023-05-25.11:50:30::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:31::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2023-05-25.11:50:31::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:31::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2023-05-25.11:50:31::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:31::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2023-05-25.11:50:31::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:31::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2023-05-25.11:50:31::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:31::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2023-05-25.11:50:31::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2023-05-25.11:50:31::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o  pcap
+TRACE::2023-05-25.11:50:31::SCWBDomain::.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-05-25.11:50:31::SCWBDomain::Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgc
+TRACE::2023-05-25.11:50:31::SCWBDomain::c,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                       -Wl,--gc-sections -
+TRACE::2023-05-25.11:50:31::SCWBDomain::Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2023-05-25.11:50:31::SCWSystem::Checking the domain linux_domain
+LOG::2023-05-25.11:50:31::SCWSystem::Not a boot domain 
+TRACE::2023-05-25.11:50:31::SCWSystem::Copying the bif file from   To C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/export/ZedboardLinux2/sw/ZedboardLinux2/boot/
+TRACE::2023-05-25.11:50:31::SCWSystem::Copying the fsbl elf C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/fsbl.elf To C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/export/ZedboardLinux2/sw/ZedboardLinux2/boot/fsbl.elf
+LOG::2023-05-25.11:50:31::SCWSystem::Started Processing the domain linux_domain
+TRACE::2023-05-25.11:50:31::SCWDomain::Generating domain artifcats
+LOG::2023-05-25.11:50:31::SCWSystem::Completed Processing the domain linux_domain
+LOG::2023-05-25.11:50:31::SCWSystem::Completed Processing the sysconfig ZedboardLinux2
+LOG::2023-05-25.11:50:31::SCWPlatform::Completed generating the artifacts for system configuration ZedboardLinux2
+TRACE::2023-05-25.11:50:31::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-25.11:50:31::SCWSystem::Skipping writing of the bif file for system config ZedboardLinux2
+TRACE::2023-05-25.11:50:31::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-25.11:50:31::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-25.11:50:31::SCWPlatform::Completed generating the platform
+TRACE::2023-05-25.11:50:31::SCWMssOS::Saving the mss changes C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:31::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-25.11:50:31::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-25.11:50:31::SCWMssOS::Commit changes completed.
+TRACE::2023-05-25.11:50:31::SCWPlatform::Trying to open the hw design at C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:31::SCWPlatform::DSA given C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:31::SCWPlatform::DSA absoulate path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:31::SCWPlatform::DSA directory C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw
+TRACE::2023-05-25.11:50:31::SCWPlatform:: Platform Path C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/hw/HardwareConfig1_wrapper.xsa
+TRACE::2023-05-25.11:50:31::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2023-05-25.11:50:31::SCWPlatform::Trying to set the existing hwdb with name HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:50:31::SCWPlatform::Opened existing hwdb HardwareConfig1_wrapper_1
+TRACE::2023-05-25.11:50:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-25.11:50:31::SCWMssOS::Checking the sw design at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:31::SCWMssOS::DEBUG:  swdes dump  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-05-25.11:50:31::SCWMssOS::Sw design exists and opened at  C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-05-25.11:50:31::SCWWriter::formatted JSON is {
+	"platformName":	"ZedboardLinux2",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZedboardLinux2",
+	"platHandOff":	"C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/XSA_Files/HardwareConfig1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HardwareConfig1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZedboardLinux2",
+	"systems":	[{
+			"systemName":	"ZedboardLinux2",
+			"systemDesc":	"ZedboardLinux2",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"ZedboardLinux2",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"2b37e6d0cb8e9dfa51a6ec80f61deaba",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on ps7_cortexa9",
+					"domainDesc":	"linux_domain",
+					"processors":	"ps7_cortexa9",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"C:/fake_d/ZedboardPractice/PetalinuxTest/OS/images/linux",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-25.11:50:31::SCWPlatform::updated the xpfm file.

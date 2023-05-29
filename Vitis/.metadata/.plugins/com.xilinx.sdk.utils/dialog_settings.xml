@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="C:\fake_d\ZedboardPractice\PetalinuxTest\Zynq_hardware\XSA_Files"/>
+	<item key="boot_components_directory" value="C:\fake_d\ZedboardPractice\PetalinuxTest\OS\images\linux"/>
+	<item key="platform_editor" value="C:\fake_d\ZedboardPractice\PetalinuxTest\OS\images\linux"/>
+	<item key="linux_image_directory" value="C:\fake_d\ZedboardPractice\PetalinuxTest\OS\images\linux"/>
+	<item key="linux_rootfs" value="C:\fake_d\ZedboardPractice\PetalinuxTest\OS\images\linux"/>
+	<item key="sysroot_directory" value="C:\fake_d\ZedboardPractice\PetalinuxTest\OS\images\linux"/>
+</section>

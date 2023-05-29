@@ -1,0 +1,108 @@
+/*
+ * Copyright (c) 2012 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
+
+
+#include <unistd.h>
+#include <stdio.h>
+#include <fcntl.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <errno.h>
+#include <linux/i2c-dev.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+
+#include "i2cLinux.h"
+#include "imu.h"
+#include "gpioLinux.h"
+
+static volatile uint32_t *leds;
+#define leds_addr 0x41200000
+#define leds_mode  1
+#define game_mode  2
+#define exit_mode  0
+
+gpio_t* ZynqLeds;
+IMUData imuData;
+
+
+static int select_mode(void)
+{
+  int mode;
+  printf("Select one of the following modes:\r\n");
+  printf("%0d) Manual Contol LEDs.\r\n",leds_mode);
+  printf("%0d) Rum IMU Game.\r\n",game_mode);
+  printf("%0d) Exit the App.\r\n",exit_mode);
+  scanf("%d",&mode);
+  return mode;
+}
+
+static void run_leds_mode(void)
+{
+  int val;
+  printf("Enter a value to set the IO LEDs to: led = %x\r\n HAS TO BE STRICT INT, O/w THE PROGRAM CRASHES!!!\n",leds);
+  scanf("%d",&val);
+  gpio_set(ZynqLeds, (val & 0x000000FF));
+}
+
+
+void IMU_DAQ(void){
+	//first setup the IMU
+	SetupIMU(&imuData);
+	//Record the data from the IMU
+	for(int i = 0; i < READINGS; i++){
+		GetXYAngles(&imuData);
+		printf("X Angle: %f, Y Angle: %f\n",imuData.XAngle,imuData.YAngle);
+		usleep(IMUSleepus);
+	}
+}
+
+int main(int argc, char *argv[])
+{
+
+	int mode;
+	int exitflag = 0;
+	//Setup the Gpio
+	ZynqLeds = gpio_init(leds_addr, 0x00000000);
+    do {
+    	//Get User input
+    	mode = select_mode();
+    	// Compare the select the appropriate app
+    	switch (mode){
+    	case leds_mode:
+    		run_leds_mode();
+    		break;
+    	case game_mode:
+    		IMU_DAQ();
+    		break;
+    	case exit_mode:
+    		exitflag = 1;
+    		break;
+    	default:
+    		printf("Wrong Input entered.\n");
+    		break;
+    	}
+    } while (exitflag != 1);
+
+    return 0;
+}
+
