@@ -160,3 +160,5 @@ org.eclipse.core.internal.resources.ResourceException(/BlinkLed/src/lscript.ld)[
 14:23:07 INFO  : Successfully done setting workspace for the tool. 
 14:23:32 INFO  : Result from executing command 'getProjects': ZedboardLinux2;linuxTest
 14:23:32 INFO  : Result from executing command 'getPlatforms': ZedboardLinux2|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/export/ZedboardLinux2/ZedboardLinux2.xpfm;linuxTest|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/linuxTest/export/linuxTest/linuxTest.xpfm
+15:40:49 INFO  : Result from executing command 'getProjects': ZedboardLinux2;linuxTest
+15:40:49 INFO  : Result from executing command 'getPlatforms': ZedboardLinux2|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/export/ZedboardLinux2/ZedboardLinux2.xpfm;linuxTest|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/linuxTest/export/linuxTest/linuxTest.xpfm

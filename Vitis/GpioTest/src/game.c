@@ -15,6 +15,14 @@ void game_init(game_t *game, gpio_t *leds){
     game->dt = IMUSleepus/1000000;
     game->rawVariable = 0;
     game->distance = 0;
+    game->velocity = 0;
+    game->velocity_old = 0;
+    game->velocity_old2 = 0;
+    game->acceleration = 0;
+    game->mass = 0.25;
+    game->pullingforce = 0;
+    game->fricforce = 0;
+    game->netforce = 0;
     //write the start state to the leds
     gpio_set(game->LED_struct, game->ledstate);
 }
@@ -25,10 +33,54 @@ void game_update(game_t *game, IMUData *imuData){
     game->currentVariable = imuData->XAngle*SpeedFactor + game->lastVariable*(1-SpeedFactor);
     game->lastVariable = game->currentVariable;
 
-    game->velocity += game->currentVariable*game->dt;
-    game->distance += game->velocity*game->dt*game->dt;
+    //Compute the force experienced on the ball. We have one force pulling the ball down and one friction force opposing the motion
+    game->fricforce = game->mass * G_acc * Frict_mu * cos(game->currentVariable * PI / 180);
+    if(game->currentVariable < 0){
+        game->fricforce = -game->fricforce;
+    }
+
+    game->pullingforce = game->mass * G_acc * sin(game->currentVariable * PI / 180);
+
+    //if pulling force is less than friction force, then friction force is pulling force
+    if((abs(game->pullingforce) <= abs(game->fricforce)) && (((game->velocity) < 0.002) && game->velocity > -0.002)){
+        game->fricforce = game->pullingforce;
+    }
+    else{
+        game->fricforce = 0.7*game->fricforce;
+    }
+
+    game->netforce = game->pullingforce - game->fricforce;
+
+    game->acceleration = game->netforce / game->mass;
     
-    printf("Current Variable: %f\n",game->currentVariable);
+    game->velocity += game->acceleration*game->dt;
+    game->velocity_old = game->velocity;
+    game->velocity_old2 = game->velocity_old;
+    game->distance += game->velocity*game->dt;
+    
+    printf("Angle: %f\n",game->currentVariable);
+    printf("Acceleration: %f\n",game->acceleration);
     printf("Velocity: %f\n",game->velocity);
     printf("Distance : %f\n",game->distance);
+    printf("Pulling Force: %f\n",game->pullingforce);
+    printf("Friction Force: %f\n",game->fricforce);
+
+}
+
+void game_cleanup(game_t *game){
+    //set all variables to 0
+    game->ledstate = 0;
+    game->currentVariable = 0;
+    game->lastVariable = 0;
+    game->rawVariable = 0;
+    game->dt = 0;
+    game->distance = 0;
+    game->velocity = 0;
+    game->velocity_old = 0;
+    game->velocity_old2 = 0;
+    game->acceleration = 0;
+    game->mass = 0;
+    game->pullingforce = 0;
+    game->fricforce = 0;
+    game->netforce = 0;
 }

@@ -17,7 +17,7 @@
 
 #define IMU_addr 0x68
 #define I2CBUS 0
-#define READINGS 500
+#define READINGS 600
 #define IMUSmplRate 50.0 //Hz
 #define IMUSleepus 1000000.0/IMUSmplRate
 #define PI 3.1415926535897932384626433832795
@@ -65,4 +65,11 @@ void GetXYAngles(IMUData * imu);
 */
 int IMUTest(IMUData * imu);
 
+/*
+* Function: IMUCleanup
+* Closes the I2C bus
+* Parameters:
+* imu - IMUData struct pointer which will hold the data
+*/
+void IMUCleanup(IMUData * imu);
 #endif

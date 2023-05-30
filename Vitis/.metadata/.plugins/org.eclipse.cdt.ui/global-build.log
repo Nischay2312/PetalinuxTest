@@ -1,6 +1,6 @@
 Nothing to build in platform 'ZedboardLinux2'
 
-14:32:40 **** Incremental Build of configuration Debug for project GpioTest ****
+15:52:51 **** Incremental Build of configuration Debug for project GpioTest ****
 make all 
 'Building file: ../src/game.c'
 'Invoking: ARM v7 Linux gcc compiler'
@@ -27,6 +27,6 @@ arm-linux-gnueabihf-gcc  -o "GpioTest.elf"  ./src/game.o ./src/gpioLinux.o ./src
 'Invoking: ARM v7 Linux Print Size'
 arm-linux-gnueabihf-size GpioTest.elf  |tee "GpioTest.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   5881	    404	     72	   6357	   18d5	GpioTest.elf
+   7165	    412	    100	   7677	   1dfd	GpioTest.elf
 'Finished building: GpioTest.elf.size'
 ' '

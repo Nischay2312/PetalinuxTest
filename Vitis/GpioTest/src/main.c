@@ -38,8 +38,8 @@
 
 static volatile uint32_t *leds;
 #define leds_addr 0x41200000
-#define leds_mode  1
-#define game_mode  2
+#define leds_mode  3
+#define game_mode  8
 #define exit_mode  0
 
 gpio_t* ZynqLeds;
@@ -69,6 +69,7 @@ static void run_leds_mode(void)
 void IMU_DAQ(void){
 	//first setup the IMU
 	SetupIMU(&imuData);
+	game_init(&game, ZynqLeds);
 	FILE *fp;
 	fp = fopen("dat.csv", "w");
 	//Record the data from the IMU
@@ -76,10 +77,13 @@ void IMU_DAQ(void){
 		GetXYAngles(&imuData);
 		//printf("X Angle: %f, Y Angle: %f\n",imuData.XAngle,imuData.YAngle);
 		game_update(&game, &imuData);
-		fprintf(fp, "%lf, %lf, %lf, %lf\n",imuData.XAngle, game.currentVariable, game.velocity, game.distance);
+		fprintf(fp, "%lf, %lf, %lf, %lf, %lf, %lf, %lf, %lf\n",imuData.XAngle, game.currentVariable, game.pullingforce, game.fricforce, game.netforce, game.acceleration, game.velocity, game.distance);
 		usleep(IMUSleepus);
 	}
 	fclose(fp);
+	//Clean up the data structures
+	game_cleanup(&game);
+	IMUCleanup(&imuData);
 }
 
 int main(int argc, char *argv[])

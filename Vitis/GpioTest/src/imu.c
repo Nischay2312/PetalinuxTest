@@ -65,3 +65,11 @@ int IMUTest(IMUData *imu){
     }
     return 0;
 }
+
+void IMUCleanup(IMUData *imu){
+    //Set the variables to 0
+    imu->XAngle = 0;
+    imu->YAngle = 0;
+    imu->fd = 0;
+    imu->Address = 0;
+}

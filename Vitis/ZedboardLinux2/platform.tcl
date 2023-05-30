@@ -19,3 +19,5 @@ platform write
 platform generate
 platform clean
 platform generate
+platform clean
+platform generate

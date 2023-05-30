@@ -1,0 +1,55 @@
+/*
+* game.h
+* This file contains the game functions and structure
+* Author: Nischay Joshi
+* Date: 2023/05/29
+*/
+#ifndef GAME_H
+#define GAME_H
+#define LED_START_STATE 0x01
+#define SpeedFactor 0.1
+#define G_acc 9.81
+#define Frict_mu 0.01
+#define Kinetic_mu 0.01*0.75
+
+#include "gpioLinux.h"
+#include "imu.h"
+
+typedef struct 
+{
+    uint8_t ledstate;
+    float currentVariable;
+    float lastVariable;
+    float rawVariable;
+    float dt;
+    float velocity;
+    float velocity_old;
+    float velocity_old2;
+    float distance;
+    float acceleration;
+    float mass;
+    float pullingforce;
+    float fricforce;
+    float netforce;
+    gpio_t *LED_struct;
+} game_t;
+
+/*
+* This function is used to initialize the game
+* @param game is the game structure
+*/
+void game_init(game_t *game, gpio_t *leds);
+
+/*
+* This function is used to update the game
+* @param game is the game structure
+*/
+void game_update(game_t *game, IMUData *imuData);
+
+
+/*
+* This function is used to clean up the game
+* @param game is the game structure
+*/
+void game_cleanup(game_t *game);
+#endif

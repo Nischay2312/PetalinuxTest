@@ -12137,3 +12137,33 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 "vivado_version": "2020.2",
 "part": "xc7z020clg484-1",
 }]. Thread: Worker-6: Launching Debugger_GpioTest-Default
+
+!ENTRY org.eclipse.tcf 4 0 2023-05-30 13:06:35.189
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2023-05-30 13:06:35.212
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2023-05-30 15:02:47.700
+!MESSAGE Debugger console IO error. Process ID P651. Stream 0
+!STACK 0
+java.io.IOException: No target process
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.writeProcessInputStream(TCFLaunch.java:1281)
+	at org.eclipse.tcf.internal.debug.ui.model.TCFConsole$ViewPage$1$1.run(TCFConsole.java:88)
+	at org.eclipse.tcf.protocol.Protocol$3.run(Protocol.java:243)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
