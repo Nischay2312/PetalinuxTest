@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Thu May 25 09:21:47 2023
+//Date        : Wed May 31 11:34:47 2023
 //Host        : DESKTOP-R9Q85HB running 64-bit major release  (build 9200)
 //Command     : generate_target HardwareConfig1_wrapper.bd
 //Design      : HardwareConfig1_wrapper
@@ -31,6 +31,9 @@ module HardwareConfig1_wrapper
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
+    Vp_Vn_v_n,
+    Vp_Vn_v_p,
+    btns_5bits_tri_i,
     leds_8bits_tri_o);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
@@ -53,6 +56,9 @@ module HardwareConfig1_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
+  input Vp_Vn_v_n;
+  input Vp_Vn_v_p;
+  input [4:0]btns_5bits_tri_i;
   output [7:0]leds_8bits_tri_o;
 
   wire [14:0]DDR_addr;
@@ -76,6 +82,9 @@ module HardwareConfig1_wrapper
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
+  wire Vp_Vn_v_n;
+  wire Vp_Vn_v_p;
+  wire [4:0]btns_5bits_tri_i;
   wire [7:0]leds_8bits_tri_o;
 
   HardwareConfig1 HardwareConfig1_i
@@ -100,5 +109,8 @@ module HardwareConfig1_wrapper
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
+        .Vp_Vn_v_n(Vp_Vn_v_n),
+        .Vp_Vn_v_p(Vp_Vn_v_p),
+        .btns_5bits_tri_i(btns_5bits_tri_i),
         .leds_8bits_tri_o(leds_8bits_tri_o));
 endmodule

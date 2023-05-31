@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1685031730">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1685558115">
   <File Type="BITSTR-BMM" Name="HardwareConfig1_wrapper_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="HardwareConfig1_wrapper_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="HardwareConfig1_wrapper_timing_summary_init.rpt"/>
@@ -99,6 +99,12 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
@@ -110,9 +116,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -123,8 +127,9 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="HardwareConfig1_xadc_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="HardwareConfig1_rst_ps7_0_100M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="HardwareConfig1_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="HardwareConfig1_axi_gpio_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="HardwareConfig1_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="HardwareConfig1_xbar_0"/>
 </GenRun>

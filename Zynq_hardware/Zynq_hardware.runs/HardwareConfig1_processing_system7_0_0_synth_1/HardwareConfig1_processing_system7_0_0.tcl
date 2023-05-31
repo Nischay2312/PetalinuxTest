@@ -89,7 +89,7 @@ set_property ip_output_repo c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardwa
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0.xci
+read_ip -quiet C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0.xci
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0.xdc]
 
 OPTRACE "Adding files" END { }

@@ -20,63 +20,222 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20608
+INFO: [Synth 8-7075] Helper process launched with PID 2884
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1065.887 ; gain = 38.141
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1073.168 ; gain = 43.762
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_wrapper' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/hdl/HardwareConfig1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_wrapper' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/hdl/HardwareConfig1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_axi_gpio_0_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_axi_gpio_0_0' (1#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_processing_system7_0_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_processing_system7_0_0' (2#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_processing_system7_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'SPI0_SCLK_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_SCLK_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_MOSI_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_MOSI_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_MISO_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_MISO_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_SS_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_SS1_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_SS2_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'SPI0_SS_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE0_OUT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE1_OUT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE2_OUT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'HardwareConfig1_processing_system7_0_0' has 82 connections declared, but only 67 given [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:162]
-INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_ps7_0_axi_periph_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:301]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_16RHO3Z' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:606]
-INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_auto_pc_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_auto_pc_0' (3#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_auto_pc_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'HardwareConfig1_auto_pc_0' is unconnected for instance 'auto_pc' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:841]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'HardwareConfig1_auto_pc_0' is unconnected for instance 'auto_pc' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:841]
-WARNING: [Synth 8-7023] instance 'auto_pc' of module 'HardwareConfig1_auto_pc_0' has 59 connections declared, but only 57 given [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:841]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_16RHO3Z' (4#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:606]
-INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_ps7_0_axi_periph_0' (5#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:301]
-INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_rst_ps7_0_100M_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_rst_ps7_0_100M_0' (6#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-4072-DESKTOP-R9Q85HB/realtime/HardwareConfig1_rst_ps7_0_100M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:292]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:292]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:292]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:292]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'HardwareConfig1_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:292]
-INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1' (7#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_wrapper' (8#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/hdl/HardwareConfig1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_axi_gpio_0_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_axi_gpio_0_0' (1#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_processing_system7_0_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_processing_system7_0_0' (2#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'SPI0_SCLK_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_SCLK_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_MOSI_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_MOSI_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_MISO_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_MISO_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_SS_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_SS1_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_SS2_O' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'SPI0_SS_T' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE0_OUT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE1_OUT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE2_OUT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'HardwareConfig1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'HardwareConfig1_processing_system7_0_0' has 83 connections declared, but only 68 given [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:196]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_ps7_0_axi_periph_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:393]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1FSS6DZ' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1084]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1FSS6DZ' (3#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1084]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_8NZDQX' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1216]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_8NZDQX' (4#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1216]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_BVW5XM' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1348]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_BVW5XM' (5#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1348]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_16RHO3Z' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1494]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_auto_pc_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_auto_pc_0' (6#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_16RHO3Z' (7#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:1494]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_xbar_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_xbar_0' (8#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_ps7_0_axi_periph_0' (9#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:393]
+WARNING: [Synth 8-7071] port 'M02_AXI_araddr' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_arprot' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_arvalid' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_awaddr' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_awprot' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_awvalid' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_bready' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_rready' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_wdata' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_wstrb' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7071] port 'M02_AXI_wvalid' of module 'HardwareConfig1_ps7_0_axi_periph_0' is unconnected for instance 'ps7_0_axi_periph' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+WARNING: [Synth 8-7023] instance 'ps7_0_axi_periph' of module 'HardwareConfig1_ps7_0_axi_periph_0' has 101 connections declared, but only 90 given [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:265]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_rst_ps7_0_100M_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_rst_ps7_0_100M_0' (10#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:356]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:356]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:356]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'HardwareConfig1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:356]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'HardwareConfig1_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:356]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_xadc_wiz_0_0' [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_xadc_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_xadc_wiz_0_0' (11#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/.Xil/Vivado-18500-DESKTOP-R9Q85HB/realtime/HardwareConfig1_xadc_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'channel_out' of module 'HardwareConfig1_xadc_wiz_0_0' is unconnected for instance 'xadc_wiz_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:363]
+WARNING: [Synth 8-7071] port 'busy_out' of module 'HardwareConfig1_xadc_wiz_0_0' is unconnected for instance 'xadc_wiz_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:363]
+WARNING: [Synth 8-7071] port 'eoc_out' of module 'HardwareConfig1_xadc_wiz_0_0' is unconnected for instance 'xadc_wiz_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:363]
+WARNING: [Synth 8-7071] port 'eos_out' of module 'HardwareConfig1_xadc_wiz_0_0' is unconnected for instance 'xadc_wiz_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:363]
+WARNING: [Synth 8-7071] port 'alarm_out' of module 'HardwareConfig1_xadc_wiz_0_0' is unconnected for instance 'xadc_wiz_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:363]
+WARNING: [Synth 8-7023] instance 'xadc_wiz_0' of module 'HardwareConfig1_xadc_wiz_0_0' has 28 connections declared, but only 23 given [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:363]
+INFO: [Synth 8-6157] synthesizing module 'HardwareConfig1_xlconcat_0_0' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xlconcat_0_0/synth/HardwareConfig1_xlconcat_0_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter IN32_WIDTH bound to: 1 - type: integer 
+	Parameter IN33_WIDTH bound to: 1 - type: integer 
+	Parameter IN34_WIDTH bound to: 1 - type: integer 
+	Parameter IN35_WIDTH bound to: 1 - type: integer 
+	Parameter IN36_WIDTH bound to: 1 - type: integer 
+	Parameter IN37_WIDTH bound to: 1 - type: integer 
+	Parameter IN38_WIDTH bound to: 1 - type: integer 
+	Parameter IN39_WIDTH bound to: 1 - type: integer 
+	Parameter IN40_WIDTH bound to: 1 - type: integer 
+	Parameter IN41_WIDTH bound to: 1 - type: integer 
+	Parameter IN42_WIDTH bound to: 1 - type: integer 
+	Parameter IN43_WIDTH bound to: 1 - type: integer 
+	Parameter IN44_WIDTH bound to: 1 - type: integer 
+	Parameter IN45_WIDTH bound to: 1 - type: integer 
+	Parameter IN46_WIDTH bound to: 1 - type: integer 
+	Parameter IN47_WIDTH bound to: 1 - type: integer 
+	Parameter IN48_WIDTH bound to: 1 - type: integer 
+	Parameter IN49_WIDTH bound to: 1 - type: integer 
+	Parameter IN50_WIDTH bound to: 1 - type: integer 
+	Parameter IN51_WIDTH bound to: 1 - type: integer 
+	Parameter IN52_WIDTH bound to: 1 - type: integer 
+	Parameter IN53_WIDTH bound to: 1 - type: integer 
+	Parameter IN54_WIDTH bound to: 1 - type: integer 
+	Parameter IN55_WIDTH bound to: 1 - type: integer 
+	Parameter IN56_WIDTH bound to: 1 - type: integer 
+	Parameter IN57_WIDTH bound to: 1 - type: integer 
+	Parameter IN58_WIDTH bound to: 1 - type: integer 
+	Parameter IN59_WIDTH bound to: 1 - type: integer 
+	Parameter IN60_WIDTH bound to: 1 - type: integer 
+	Parameter IN61_WIDTH bound to: 1 - type: integer 
+	Parameter IN62_WIDTH bound to: 1 - type: integer 
+	Parameter IN63_WIDTH bound to: 1 - type: integer 
+	Parameter IN64_WIDTH bound to: 1 - type: integer 
+	Parameter IN65_WIDTH bound to: 1 - type: integer 
+	Parameter IN66_WIDTH bound to: 1 - type: integer 
+	Parameter IN67_WIDTH bound to: 1 - type: integer 
+	Parameter IN68_WIDTH bound to: 1 - type: integer 
+	Parameter IN69_WIDTH bound to: 1 - type: integer 
+	Parameter IN70_WIDTH bound to: 1 - type: integer 
+	Parameter IN71_WIDTH bound to: 1 - type: integer 
+	Parameter IN72_WIDTH bound to: 1 - type: integer 
+	Parameter IN73_WIDTH bound to: 1 - type: integer 
+	Parameter IN74_WIDTH bound to: 1 - type: integer 
+	Parameter IN75_WIDTH bound to: 1 - type: integer 
+	Parameter IN76_WIDTH bound to: 1 - type: integer 
+	Parameter IN77_WIDTH bound to: 1 - type: integer 
+	Parameter IN78_WIDTH bound to: 1 - type: integer 
+	Parameter IN79_WIDTH bound to: 1 - type: integer 
+	Parameter IN80_WIDTH bound to: 1 - type: integer 
+	Parameter IN81_WIDTH bound to: 1 - type: integer 
+	Parameter IN82_WIDTH bound to: 1 - type: integer 
+	Parameter IN83_WIDTH bound to: 1 - type: integer 
+	Parameter IN84_WIDTH bound to: 1 - type: integer 
+	Parameter IN85_WIDTH bound to: 1 - type: integer 
+	Parameter IN86_WIDTH bound to: 1 - type: integer 
+	Parameter IN87_WIDTH bound to: 1 - type: integer 
+	Parameter IN88_WIDTH bound to: 1 - type: integer 
+	Parameter IN89_WIDTH bound to: 1 - type: integer 
+	Parameter IN90_WIDTH bound to: 1 - type: integer 
+	Parameter IN91_WIDTH bound to: 1 - type: integer 
+	Parameter IN92_WIDTH bound to: 1 - type: integer 
+	Parameter IN93_WIDTH bound to: 1 - type: integer 
+	Parameter IN94_WIDTH bound to: 1 - type: integer 
+	Parameter IN95_WIDTH bound to: 1 - type: integer 
+	Parameter IN96_WIDTH bound to: 1 - type: integer 
+	Parameter IN97_WIDTH bound to: 1 - type: integer 
+	Parameter IN98_WIDTH bound to: 1 - type: integer 
+	Parameter IN99_WIDTH bound to: 1 - type: integer 
+	Parameter IN100_WIDTH bound to: 1 - type: integer 
+	Parameter IN101_WIDTH bound to: 1 - type: integer 
+	Parameter IN102_WIDTH bound to: 1 - type: integer 
+	Parameter IN103_WIDTH bound to: 1 - type: integer 
+	Parameter IN104_WIDTH bound to: 1 - type: integer 
+	Parameter IN105_WIDTH bound to: 1 - type: integer 
+	Parameter IN106_WIDTH bound to: 1 - type: integer 
+	Parameter IN107_WIDTH bound to: 1 - type: integer 
+	Parameter IN108_WIDTH bound to: 1 - type: integer 
+	Parameter IN109_WIDTH bound to: 1 - type: integer 
+	Parameter IN110_WIDTH bound to: 1 - type: integer 
+	Parameter IN111_WIDTH bound to: 1 - type: integer 
+	Parameter IN112_WIDTH bound to: 1 - type: integer 
+	Parameter IN113_WIDTH bound to: 1 - type: integer 
+	Parameter IN114_WIDTH bound to: 1 - type: integer 
+	Parameter IN115_WIDTH bound to: 1 - type: integer 
+	Parameter IN116_WIDTH bound to: 1 - type: integer 
+	Parameter IN117_WIDTH bound to: 1 - type: integer 
+	Parameter IN118_WIDTH bound to: 1 - type: integer 
+	Parameter IN119_WIDTH bound to: 1 - type: integer 
+	Parameter IN120_WIDTH bound to: 1 - type: integer 
+	Parameter IN121_WIDTH bound to: 1 - type: integer 
+	Parameter IN122_WIDTH bound to: 1 - type: integer 
+	Parameter IN123_WIDTH bound to: 1 - type: integer 
+	Parameter IN124_WIDTH bound to: 1 - type: integer 
+	Parameter IN125_WIDTH bound to: 1 - type: integer 
+	Parameter IN126_WIDTH bound to: 1 - type: integer 
+	Parameter IN127_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 2 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (12#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_xlconcat_0_0' (13#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xlconcat_0_0/synth/HardwareConfig1_xlconcat_0_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1' (14#1) [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/synth/HardwareConfig1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'HardwareConfig1_wrapper' (15#1) [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/hdl/HardwareConfig1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1121.188 ; gain = 93.441
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1131.297 ; gain = 101.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1121.188 ; gain = 93.441
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1131.297 ; gain = 101.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1121.188 ; gain = 93.441
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1131.297 ; gain = 101.891
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1121.188 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1131.297 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -85,28 +244,36 @@ Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_ha
 Finished Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0_in_context.xdc] for cell 'HardwareConfig1_i/processing_system7_0'
 Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_axi_gpio_0_0/HardwareConfig1_axi_gpio_0_0/HardwareConfig1_axi_gpio_0_0_in_context.xdc] for cell 'HardwareConfig1_i/axi_gpio_0'
 Finished Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_axi_gpio_0_0/HardwareConfig1_axi_gpio_0_0/HardwareConfig1_axi_gpio_0_0_in_context.xdc] for cell 'HardwareConfig1_i/axi_gpio_0'
+Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xbar_0/HardwareConfig1_xbar_0/HardwareConfig1_xbar_0_in_context.xdc] for cell 'HardwareConfig1_i/ps7_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xbar_0/HardwareConfig1_xbar_0/HardwareConfig1_xbar_0_in_context.xdc] for cell 'HardwareConfig1_i/ps7_0_axi_periph/xbar'
 Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_auto_pc_0/HardwareConfig1_auto_pc_0/HardwareConfig1_auto_pc_0_in_context.xdc] for cell 'HardwareConfig1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Finished Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_auto_pc_0/HardwareConfig1_auto_pc_0/HardwareConfig1_auto_pc_0_in_context.xdc] for cell 'HardwareConfig1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0_in_context.xdc] for cell 'HardwareConfig1_i/rst_ps7_0_100M'
 Finished Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0_in_context.xdc] for cell 'HardwareConfig1_i/rst_ps7_0_100M'
+Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0_in_context.xdc] for cell 'HardwareConfig1_i/xadc_wiz_0'
+Finished Parsing XDC File [c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0_in_context.xdc] for cell 'HardwareConfig1_i/xadc_wiz_0'
+Parsing XDC File [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/constrs_1/new/Constraints.xdc]
+Finished Parsing XDC File [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/constrs_1/new/Constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/constrs_1/new/Constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/HardwareConfig1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/HardwareConfig1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1138.094 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1166.621 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1138.094 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1166.621 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1138.094 ; gain = 110.348
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1166.621 ; gain = 137.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1138.094 ; gain = 110.348
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1166.621 ; gain = 137.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -374,14 +541,17 @@ Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint
 Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/processing_system7_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/ps7_0_axi_periph. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/rst_ps7_0_100M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/xadc_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for HardwareConfig1_i/xlconcat_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1138.094 ; gain = 110.348
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1166.621 ; gain = 137.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1138.094 ; gain = 110.348
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1166.621 ; gain = 137.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -403,25 +573,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1138.094 ; gain = 110.348
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1166.621 ; gain = 137.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1198.730 ; gain = 170.984
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1214.902 ; gain = 185.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1199.027 ; gain = 171.281
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1215.199 ; gain = 185.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1218.121 ; gain = 190.375
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1234.305 ; gain = 204.898
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -439,37 +609,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.059 ; gain = 210.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.059 ; gain = 210.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.059 ; gain = 210.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.059 ; gain = 210.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.059 ; gain = 210.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.059 ; gain = 210.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -479,10 +649,12 @@ Report BlackBoxes:
 +------+---------------------------------------+----------+
 |      |BlackBox name                          |Instances |
 +------+---------------------------------------+----------+
-|1     |HardwareConfig1_auto_pc_0              |         1|
-|2     |HardwareConfig1_axi_gpio_0_0           |         1|
-|3     |HardwareConfig1_processing_system7_0_0 |         1|
-|4     |HardwareConfig1_rst_ps7_0_100M_0       |         1|
+|1     |HardwareConfig1_xbar_0                 |         1|
+|2     |HardwareConfig1_auto_pc_0              |         1|
+|3     |HardwareConfig1_axi_gpio_0_0           |         1|
+|4     |HardwareConfig1_processing_system7_0_0 |         1|
+|5     |HardwareConfig1_rst_ps7_0_100M_0       |         1|
+|6     |HardwareConfig1_xadc_wiz_0_0           |         1|
 +------+---------------------------------------+----------+
 
 Report Cell Usage: 
@@ -493,26 +665,29 @@ Report Cell Usage:
 |2     |HardwareConfig1_axi_gpio_0           |     1|
 |3     |HardwareConfig1_processing_system7_0 |     1|
 |4     |HardwareConfig1_rst_ps7_0_100M       |     1|
-|5     |OBUF                                 |     8|
+|5     |HardwareConfig1_xadc_wiz_0           |     1|
+|6     |HardwareConfig1_xbar                 |     1|
+|7     |IBUF                                 |     7|
+|8     |OBUF                                 |     8|
 +------+-------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.059 ; gain = 210.652
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1223.918 ; gain = 179.266
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1223.918 ; gain = 196.172
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1240.059 ; gain = 175.328
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1240.059 ; gain = 210.652
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1235.973 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1252.137 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1242.551 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1254.539 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-31 Infos, 24 Warnings, 0 Critical Warnings and 0 Errors encountered.
+46 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1242.551 ; gain = 214.805
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1254.539 ; gain = 225.133
 INFO: [Common 17-1381] The checkpoint 'C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/synth_1/HardwareConfig1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file HardwareConfig1_wrapper_utilization_synth.rpt -pb HardwareConfig1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May 25 09:23:46 2023...
+INFO: [Common 17-206] Exiting Vivado at Wed May 31 11:36:50 2023...

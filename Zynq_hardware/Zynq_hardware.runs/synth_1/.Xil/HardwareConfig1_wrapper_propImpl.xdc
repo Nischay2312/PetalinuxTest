@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/constrs_1/new/Constraints.xdc rfile:../../../Zynq_hardware.srcs/constrs_1/new/Constraints.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN M12 } [get_ports Vp_Vn_v_n]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN L11 } [get_ports Vp_Vn_v_p]

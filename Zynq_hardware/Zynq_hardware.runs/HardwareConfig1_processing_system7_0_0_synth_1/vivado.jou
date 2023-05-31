@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu May 25 09:22:13 2023
-# Process ID: 13956
+# Start of session at: Wed May 31 11:35:18 2023
+# Process ID: 24100
 # Current directory: C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/HardwareConfig1_processing_system7_0_0_synth_1
 # Command line: vivado.exe -log HardwareConfig1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HardwareConfig1_processing_system7_0_0.tcl
 # Log file: C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.runs/HardwareConfig1_processing_system7_0_0_synth_1/HardwareConfig1_processing_system7_0_0.vds

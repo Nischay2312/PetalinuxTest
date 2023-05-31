@@ -87,7 +87,7 @@ set_property ip_output_repo c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardwa
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/hdl/HardwareConfig1_wrapper.v
+read_verilog -library xil_defaultlib C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/hdl/HardwareConfig1_wrapper.v
 add_files C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/sources_1/bd/HardwareConfig1/HardwareConfig1.bd
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_axi_gpio_0_0/HardwareConfig1_axi_gpio_0_0_board.xdc]
@@ -96,7 +96,10 @@ set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPrac
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0.xdc]
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xbar_0/HardwareConfig1_xbar_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_auto_pc_0/HardwareConfig1_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/ip/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.gen/sources_1/bd/HardwareConfig1/HardwareConfig1_ooc.xdc]
 
 OPTRACE "Adding files" END { }
@@ -108,6 +111,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/constrs_1/new/Constraints.xdc
+set_property used_in_implementation false [get_files C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/constrs_1/new/Constraints.xdc]
+
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1

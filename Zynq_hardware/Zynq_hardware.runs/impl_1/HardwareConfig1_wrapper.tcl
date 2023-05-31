@@ -143,6 +143,7 @@ OPTRACE "add files" START { }
   add_files C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/sources_1/bd/HardwareConfig1/HardwareConfig1.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
+  read_xdc C:/fake_d/ZedboardPractice/PetalinuxTest/Zynq_hardware/Zynq_hardware.srcs/constrs_1/new/Constraints.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
