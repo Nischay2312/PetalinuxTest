@@ -80,20 +80,20 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="HardwareConfig1.bd" FileRelPathName="ip/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0.xci">
-          <Proxy FileSetName="HardwareConfig1_xadc_wiz_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="HardwareConfig1.bd" FileRelPathName="ip/HardwareConfig1_xbar_0/HardwareConfig1_xbar_0.xci">
           <Proxy FileSetName="HardwareConfig1_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="HardwareConfig1.bd" FileRelPathName="ip/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0.xci">
+          <Proxy FileSetName="HardwareConfig1_processing_system7_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="HardwareConfig1.bd" FileRelPathName="ip/HardwareConfig1_axi_gpio_0_0/HardwareConfig1_axi_gpio_0_0.xci">
           <Proxy FileSetName="HardwareConfig1_axi_gpio_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="HardwareConfig1.bd" FileRelPathName="ip/HardwareConfig1_xadc_wiz_0_0/HardwareConfig1_xadc_wiz_0_0.xci">
+          <Proxy FileSetName="HardwareConfig1_xadc_wiz_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="HardwareConfig1.bd" FileRelPathName="ip/HardwareConfig1_rst_ps7_0_100M_0/HardwareConfig1_rst_ps7_0_100M_0.xci">
           <Proxy FileSetName="HardwareConfig1_rst_ps7_0_100M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="HardwareConfig1.bd" FileRelPathName="ip/HardwareConfig1_processing_system7_0_0/HardwareConfig1_processing_system7_0_0.xci">
-          <Proxy FileSetName="HardwareConfig1_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/HardwareConfig1/hdl/HardwareConfig1_wrapper.v">
@@ -236,9 +236,7 @@
     </Run>
     <Run Id="HardwareConfig1_xadc_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="HardwareConfig1_xadc_wiz_0_0" Part="xc7z020clg484-1" ConstrsSet="HardwareConfig1_xadc_wiz_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/HardwareConfig1_xadc_wiz_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/HardwareConfig1_xadc_wiz_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -248,9 +246,7 @@
     </Run>
     <Run Id="HardwareConfig1_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="HardwareConfig1_xbar_0" Part="xc7z020clg484-1" ConstrsSet="HardwareConfig1_xbar_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/HardwareConfig1_xbar_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/HardwareConfig1_xbar_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -329,9 +325,7 @@
     </Run>
     <Run Id="HardwareConfig1_xadc_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="HardwareConfig1_xadc_wiz_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="HardwareConfig1_xadc_wiz_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/HardwareConfig1_xadc_wiz_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -348,9 +342,7 @@
     </Run>
     <Run Id="HardwareConfig1_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="HardwareConfig1_xbar_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="HardwareConfig1_xbar_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/HardwareConfig1_xbar_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

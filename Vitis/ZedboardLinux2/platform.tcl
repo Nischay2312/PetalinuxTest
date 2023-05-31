@@ -21,3 +21,6 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform active {ZedboardLinux2}
+domain active {zynq_fsbl}
+bsp reload

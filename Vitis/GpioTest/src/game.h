@@ -12,7 +12,7 @@
 #define Frict_mu 0.4
 #define Kinetic_mu 0.4*0.75
 
-#include "gpioLinux.h"
+#include "registerLinux.h"
 #include "imu.h"
 
 typedef struct 
@@ -31,14 +31,14 @@ typedef struct
     float pullingforce;
     float fricforce;
     float netforce;
-    gpio_t *LED_struct;
+    ZynqRegister_t *LED_struct;
 } game_t;
 
 /*
 * This function is used to initialize the game
 * @param game is the game structure
 */
-void game_init(game_t *game, gpio_t *leds);
+void game_init(game_t *game, ZynqRegister_t *leds);
 
 /*
 * This function is used to update the game

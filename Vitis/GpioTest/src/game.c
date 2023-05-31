@@ -7,7 +7,7 @@
 
 #include "game.h"
 
-void game_init(game_t *game, gpio_t *leds){
+void game_init(game_t *game,ZynqRegister_t *leds){
     game->ledstate = LED_START_STATE;
     game->currentVariable = 0;
     game->lastVariable = 0;
@@ -24,7 +24,7 @@ void game_init(game_t *game, gpio_t *leds){
     game->fricforce = 0;
     game->netforce = 0;
     //write the start state to the leds
-    gpio_set(game->LED_struct, game->ledstate);
+    register_set(game->LED_struct, 0, game->ledstate, 0x000000FF);
 }
 
 void game_update(game_t *game, IMUData *imuData){

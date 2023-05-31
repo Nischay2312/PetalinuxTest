@@ -33,16 +33,17 @@
 
 #include "i2cLinux.h"
 #include "imu.h"
-#include "gpioLinux.h"
+#include "registerLinux.h"
 #include "game.h"
 
 static volatile uint32_t *leds;
-#define leds_addr 0x41200000
-#define leds_mode  3
+#define ZynqGPIOBaseAddr 0x43c00000
+
+#define leds_mode  4
 #define game_mode  8
 #define exit_mode  0
 
-gpio_t* ZynqLeds;
+ZynqRegister_t* ZynqGPIO;
 IMUData imuData;
 game_t game;
 
@@ -59,17 +60,32 @@ static int select_mode(void)
 
 static void run_leds_mode(void)
 {
+	static volatile unsigned int *leds;
+	static volatile unsigned int *switches;
+	int fd = open("/dev/mem", O_RDWR);
+	leds = mmap(0, 0x1000, PROT_READ | PROT_WRITE, MAP_SHARED, fd, ZynqGPIOBaseAddr);
+	switches = leds + 0x200;
   uint32_t val;
-  printf("Enter a value to set the IO LEDs to: led = %x\r\n HAS TO BE STRICT INT, O/w THE PROGRAM CRASHES!!!\n",leds);
+  *(leds + 0x0c) = 0x00000002;
+  usleep(5000);
+
+  //volatile uint32_t Switches = register_read(ZynqGPIO, 0x00000008);
+  printf("Switches have a value: %x\n", *switches);
+  printf("Enter a value to set the IO LEDs to: led = %x\r\n HAS TO BE STRICT INT, O/w THE PROGRAM CRASHES!!!\n", ZynqGPIO->register_ptr);
   scanf("%d",&val);
-  gpio_set(ZynqLeds, val);
+  //*leds = val;
+  //printf("Starting temp: 0%x\n", register_read(ZynqGPIO, 0x200));
+  //printf("entered \n");
+  //register_set(ZynqGPIO, 0x0c, 0x2, 0x0);
+  //usleep(50000);
+  //printf("After Trying to start converstion; temp: 0x%x\n", register_read(ZynqGPIO, 0x200));
 }
 
 
 void IMU_DAQ(void){
 	//first setup the IMU
 	SetupIMU(&imuData);
-	game_init(&game, ZynqLeds);
+	game_init(&game, ZynqGPIO);
 	FILE *fp;
 	fp = fopen("dat.csv", "w");
 	//Record the data from the IMU
@@ -92,11 +108,11 @@ int main(int argc, char *argv[])
 	int mode;
 	int exitflag = 0;
 	//Setup the Gpio
-	ZynqLeds = gpio_init(leds_addr, 0xFFFFFF00);
-	printf("GPIO SETUP COMPLETE");
+	ZynqGPIO = register_init(ZynqGPIOBaseAddr);
+	printf("GPIO SETUP COMPLETE\n");
 	//Setup the game
-	game_init(&game, ZynqLeds);
-	printf("GAME SETUP COMPLETE");
+//	game_init(&game, ZynqGPIO);
+	printf("GAME SETUP COMPLETE\n");
     do {
     	//Get User input
     	mode = select_mode();

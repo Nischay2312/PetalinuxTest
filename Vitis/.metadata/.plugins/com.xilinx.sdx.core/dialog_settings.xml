@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\ZedboardLinux1;C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\linuxTest\export\linuxTest;C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\ZedboardLinux2\export\ZedboardLinux2"/>
+	<item key="sdx.custom.platform.repository.locations" value="C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\ZedboardLinux1;C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\linuxTest\export\linuxTest;C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\ZedboardLinux2\export\ZedboardLinux2;C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\ZedboardHW_ADC_SW_LEDS\export\ZedboardHW_ADC_SW_LEDS"/>
 </section>

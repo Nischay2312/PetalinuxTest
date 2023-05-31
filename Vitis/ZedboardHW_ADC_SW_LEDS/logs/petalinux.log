@@ -1,0 +1,8 @@
+TRACE::2023-05-31.13:07:56::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardHW_ADC_SW_LEDS/export/ZedboardHW_ADC_SW_LEDS/sw/ZedboardHW_ADC_SW_LEDS/qemu/
+TRACE::2023-05-31.13:07:56::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardHW_ADC_SW_LEDS/export/ZedboardHW_ADC_SW_LEDS/sw/ZedboardHW_ADC_SW_LEDS/linux_domain/qemu/
+TRACE::2023-05-31.13:07:56::SCWLinux:: Copying the user libraries. 
+TRACE::2023-05-31.13:07:56::SCWLinux::Skipping the Petalinux build as image is already given.
+TRACE::2023-05-31.14:08:34::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardHW_ADC_SW_LEDS/export/ZedboardHW_ADC_SW_LEDS/sw/ZedboardHW_ADC_SW_LEDS/qemu/
+TRACE::2023-05-31.14:08:34::SCWLinux::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardHW_ADC_SW_LEDS/export/ZedboardHW_ADC_SW_LEDS/sw/ZedboardHW_ADC_SW_LEDS/linux_domain/qemu/
+TRACE::2023-05-31.14:08:34::SCWLinux:: Copying the user libraries. 
+TRACE::2023-05-31.14:08:34::SCWLinux::Skipping the Petalinux build as image is already given.

@@ -162,3 +162,20 @@ org.eclipse.core.internal.resources.ResourceException(/BlinkLed/src/lscript.ld)[
 14:23:32 INFO  : Result from executing command 'getPlatforms': ZedboardLinux2|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/export/ZedboardLinux2/ZedboardLinux2.xpfm;linuxTest|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/linuxTest/export/linuxTest/linuxTest.xpfm
 15:40:49 INFO  : Result from executing command 'getProjects': ZedboardLinux2;linuxTest
 15:40:49 INFO  : Result from executing command 'getPlatforms': ZedboardLinux2|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/export/ZedboardLinux2/ZedboardLinux2.xpfm;linuxTest|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/linuxTest/export/linuxTest/linuxTest.xpfm
+13:07:56 INFO  : Result from executing command 'getProjects': ZedboardHW_ADC_SW_LEDS;ZedboardLinux2;linuxTest
+13:07:56 INFO  : Result from executing command 'getPlatforms': linuxTest|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/linuxTest/export/linuxTest/linuxTest.xpfm
+13:08:26 INFO  : The hardware specfication used by project 'GpioTest' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+13:08:28 INFO  : The file 'C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\GpioTest\_ide\bitstream\HardwareConfig1_wrapper.bit' stored in project is removed.
+13:08:28 INFO  : The updated bitstream files are copied from platform to folder 'C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\GpioTest\_ide\bitstream' in project 'GpioTest'.
+13:08:28 INFO  : The file 'C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\GpioTest\_ide\psinit\ps7_init.tcl' stored in project is removed.
+13:08:33 INFO  : The updated ps init files are copied from platform to folder 'C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\GpioTest\_ide\psinit' in project 'GpioTest'.
+14:08:34 INFO  : Result from executing command 'getProjects': ZedboardHW_ADC_SW_LEDS;ZedboardLinux2;linuxTest
+14:08:34 INFO  : Result from executing command 'getPlatforms': ZedboardHW_ADC_SW_LEDS|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardHW_ADC_SW_LEDS/export/ZedboardHW_ADC_SW_LEDS/ZedboardHW_ADC_SW_LEDS.xpfm;ZedboardLinux2|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/ZedboardLinux2/export/ZedboardLinux2/ZedboardLinux2.xpfm;linuxTest|C:/fake_d/ZedboardPractice/PetalinuxTest/Vitis/linuxTest/export/linuxTest/linuxTest.xpfm
+14:32:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\fake_d\ZedboardPractice\PetalinuxTest\Vitis\temp_xsdb_launch_script.tcl
+14:32:05 INFO  : XSCT server has started successfully.
+14:32:05 INFO  : plnx-install-location is set to ''
+14:32:05 INFO  : Successfully done setting XSCT server connection channel  
+14:32:05 INFO  : Successfully done setting workspace for the tool. 
+14:32:05 INFO  : Platform repository initialization has completed.
+14:32:05 INFO  : Registering command handlers for Vitis TCF services
+14:32:10 INFO  : Successfully done query RDI_DATADIR 

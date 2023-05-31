@@ -3,7 +3,7 @@
 	<name>GpioTest</name>
 	<comment>Created by Vitis v2020.2</comment>
 	<projects>
-		<project>ZedboardLinux2</project>
+		<project>ZedboardHW_ADC_SW_LEDS</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

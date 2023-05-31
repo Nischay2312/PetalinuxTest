@@ -1,0 +1,46 @@
+/*
+*   registerLinux.c
+*   This files contains the functions used to control the GPIOs on the Zynq Soc
+*   Author: Nischay Joshi
+*   Date: 2023/05/29
+*/
+
+#include "registerLinux.h"
+
+
+ZynqRegister_t *register_init(uint32_t registerBase_addr){
+    ZynqRegister_t *myregister;
+    int fd;
+
+    //Open the memory device file
+    if((fd = open("/dev/mem", O_RDWR)) < 0){
+        printf("Error: can't open /dev/mem\n");
+        exit(-1);
+    }
+
+    //Allocate a memory structure
+    if((myregister = malloc(sizeof(register_t))) == NULL){
+        printf("Error: can't malloc gpio\n");
+        exit(-1);
+    }
+
+    //Map the GPIO
+    myregister->register_addr = registerBase_addr;
+    myregister->mem_fd = fd;
+    myregister->register_ptr = mmap(NULL, 0x1000, PROT_READ | PROT_WRITE, MAP_SHARED, fd, myregister->register_addr);
+
+    if(myregister->register_ptr == MAP_FAILED){
+        printf("mmap error %d\n", (int)myregister->register_ptr);
+        exit(-1);
+    }
+
+    return myregister;
+}
+
+void register_set(ZynqRegister_t *myregister, uint32_t offset, uint32_t value, uint32_t mask){
+    *(myregister->register_ptr + offset) = (*(myregister->register_ptr + offset) & mask) | (value & ~mask);
+}
+
+uint32_t register_read(ZynqRegister_t *myregister, uint32_t offset){
+    return *(myregister->register_ptr + offset);
+}
